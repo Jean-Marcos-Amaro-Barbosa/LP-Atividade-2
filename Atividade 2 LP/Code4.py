@@ -9,8 +9,8 @@ def exibir():
     n=100
     for v in range(1,n+1):
         if(primo(v)):
-            print("O número",v,"é Verdadeiro (É Primo!)")
+            print("O número",v,"é Primo!")
         else:
-            print("O número",v,"é Falso (Não é Primo!)")
+            print("O número",v,"Não é Primo!")
 
 exibir()
